@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">  
+  <title>IGANets - Isogeometric analysis networks</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Roboto Slab", serif;
+      background: #f4f4f4;
+    }
+
+    header {
+      background: #00a3db;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .tile {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+        background: white;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease;
+        max-width: 150px;
+        width: 100%;
+
+    }
+    
+    .tile:hover {
+      transform: translateY(-4px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #ecf0f1;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>DTAtools</h1>
+    <p>Design through analysis tools</p>
+  </header>
+
+  <main>
+    <h2>Main repositories</h2>
+  </main>
+  
+  <main>
+    <a href="https://github.com/dta-tools/dtatools-backend" class="tile" title="DTAtools backend">
+      <img src="imgs/dtatools_backend_logo.png" alt="dtatools::backend" style="width:100%; border-radius: 6px;">
+    </a>
+
+    <a href="https://github.com/dta-tools/dtatools-frontend" class="tile" title="DTAtools frontend">
+      <img src="imgs/dtatools_frontend_logo.png" alt="dtatools::frontend" style="width:100%; border-radius: 6px;">
+    </a>
+  </main>
+
+  <main>
+    <h2>Demonstrator</h2>
+  </main>
+  
+  <footer>
+    &copy; 2025 DTAtools Website. All rights reserved.
+  </footer>
+
+</body>
+</html>
